@@ -1,0 +1,74 @@
+body {
+    background-color: #eaeaea;
+}
+
+#all-posts {
+    background-color: #7d1aff;
+    padding: 2rem;
+    border-radius: 12px;
+    width: 60rem;
+    margin: 2rem auto 2rem auto;
+    box-shadow: 1px 1px 12px rgba(0, 0, 0, 0.4);
+  }
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(17rem, 1fr));
+    gap: 1.5rem;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a li :active,
+a li :hover{
+    background-color: #c591ff;
+}
+
+h1 {
+    text-align: center;
+    color: #ccc;
+}
+
+
+
+
+#search-box {
+    margin: 8rem auto 2rem auto;
+    width: 90%;
+    max-width: 60rem;
+}
+
+#search-box div {
+    display: flex;
+}
+
+#search-box input{
+    width: 100%;
+    font: inherit;
+    flex-grow: 1;
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: #e6cfff;
+}
+
+#search-box button{
+    padding: 0.5rem 1rem;
+    font: inherit;
+    font-weight: bold;
+    background: #7d1aff;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+#search-box button:hover,
+#search-box button:active{
+    background: #ac6bff;
+    cursor: pointer;
+}

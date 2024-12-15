@@ -1,0 +1,68 @@
+body {
+    background-color: #eaeaea;
+}
+
+#form {
+    width: 90%;
+    max-width: 30rem;
+    margin: 8rem auto 3rem auto;
+    background-color: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+    padding: 1rem;
+}
+
+
+#blog-form {
+    margin: 8rem auto 3rem auto;
+    width: 90%;
+    max-width: 40rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+    background-color: white;
+    padding: 1rem;
+}
+
+#blog-form h1{
+    text-align: center;
+}
+
+.form-control{
+    margin-bottom: 1rem;
+}
+
+.form-control label{
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.form-control input,
+.form-control select,
+.form-control textarea{
+    width: 100%;
+    font: inherit;
+    display: block;
+    padding: 0.25rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+
+
+#blog-form button{
+    padding: 0.5rem 1.5rem;
+    background-color: #390281;
+    font: inherit;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    border: 1px solid #390281;
+    font-weight: bold;
+}
+
+#blog-form button:active,
+#blog-form button:hover {
+    background-color: #520eab;
+    border-color: #520eab;
+}
